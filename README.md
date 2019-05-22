@@ -229,4 +229,6 @@ Options:
 
 After you using `instapy-cli`, you might receive an automatic email from Instagram notifying you about a login from an unfamiliar device, specifically a Samsung SM-G930F.
 
+![You might get an email about a login to your account from a strange device.](strange-device-email.png)
+
 You can safely disregard this email. Your account has not been hacked. Rather, this is the device data provided by `instapy-cli` in order to trick Instagram into believing that you are uploading media from a mobile device.
