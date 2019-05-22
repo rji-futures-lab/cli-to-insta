@@ -10,7 +10,7 @@ These instructions were written assuming you're using a Mac.
 
 ## Set up
 
-The tool we'll be using is `instapy-cli`. Since it was written in Python, you need to configure your computer's Python environment before installing and using this tool.
+The tool we'll be using is [`instapy-cli`](https://github.com/instagrambot/instapy-cli). Since it was written in Python, you need to configure your computer's Python environment before installing and using this tool.
 
 **Note:** You'll only have to go through this set up process once on a given computer.
 
@@ -18,7 +18,7 @@ These set up instructions were borrowed from the [Hitchhiker's Guide to Python](
 
 ### 1. Open a terminal window
 \
-Your Mac's default terminal emulator is [Terminal](https://support.apple.com/guide/terminal/welcome/mac). You can find it in your Applications folder or by using [Spotlight](https://support.apple.com/guide/mac-help/spotlight-mchlp1008/mac).\
+Your Mac's default terminal emulator is [Terminal](https://support.apple.com/guide/terminal/welcome/mac). You can find it in your Applications folder or by using [Spotlight](https://support.apple.com/guide/mac-help/spotlight-mchlp1008/mac).
 
 ### 2. Check your Python version
 \
