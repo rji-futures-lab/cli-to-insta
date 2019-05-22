@@ -1,6 +1,6 @@
 # How to upload to Instagram from non-mobile devices
 
-Uploading photos and videos to Instagram from your laptop or desktop isn't easy. It seems as though Instagram would prefer that their users *only* upload media from their phones and tablets.
+Uploading photos and videos to Instagram from your laptop or desktop isn't easy. It seems as though Instagram would prefer that their users upload media *only* from their phones and tablets.
 
 But there are work-arounds.
 
@@ -159,7 +159,7 @@ Python 3.7.3
 
 ### 6. Install FFmpeg
 
-One of the dependencies for `instapy-cli` is [FFmpeg](https://ffmpeg.org/), which apparently is necessary for pre-processing photos and videos before uploading them.
+One of the dependencies for `instapy-cli` is [FFmpeg](https://ffmpeg.org/), which is necessary for pre-processing photos and videos before uploading them.
 
 We can install this utility using Homebrew:
 
@@ -225,3 +225,8 @@ Options:
   -s           publish to story
 ```
 
+## Epilogue
+
+After you using `instapy-cli`, you might receive an automatic email from Instagram notifying you about a login from an unfamiliar device, specifically a Samsung SM-G930F.
+
+You can safely disregard this email. Your account has not been hacked. Rather, this is the device data provided by `instapy-cli` in order to trick Instagram into believing that you are uploading media from a mobile device.
