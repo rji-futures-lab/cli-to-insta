@@ -17,11 +17,11 @@ The tool we'll be using is [`instapy-cli`](https://github.com/instagrambot/insta
 These set up instructions were borrowed from the [Hitchhiker's Guide to Python](https://docs.python-guide.org/starting/install3/osx/), an excellent resource for all things related to Python.
 
 ### 1. Open a terminal window
-\
+
 Your Mac's default terminal emulator is [Terminal](https://support.apple.com/guide/terminal/welcome/mac). You can find it in your Applications folder or by using [Spotlight](https://support.apple.com/guide/mac-help/spotlight-mchlp1008/mac).
 
 ### 2. Check your Python version
-\
+
 Type:
 
 ```
@@ -39,7 +39,7 @@ This is the version of Python that Apple pre-installed on your system. We *do no
 If your terminal printed `Python 3.` instead of `Python 2.`, then skip steps 3 through 5 in this section.
 
 ### 3. Install Install Xcode Command Line Tools
-\
+
 Xcode is a large suite of software development tools provided by Apple. We only need some of these tools (e.g., the GCC compiler), which is included in the subset Xcode called the Command Line Tools.
 
 In your terminal, type:
@@ -55,7 +55,7 @@ You'll then see a prompt that looks like this:
 Select "Install", then chill for a few minutes.
 
 ### 3. Install homebrew
-\
+
 [Homebrew](https://brew.sh/) is the de-facto (yet un-official) package manager for macOS. It helps us install and configure a lot of useful software you won't find on the App Store.
 
 You already may have installed Homebrew. Let's check by updating to the latest version:
@@ -122,7 +122,7 @@ Press RETURN to continue or any other key to abort
 So then press RETURN, and enter the password you use to login to your Mac.
 
 ### 4. Add Homebrew's directory to your `PATH`
-\
+
 Your shell environment can't find Homebrew's directory (i.e., the folder on your computer that stores Homebrew's data) unless we add it to an environment variable named `PATH`.
 
 Instead of configuring this setting every time you open a terminal window, you can add it to a system file named `.profile`. Here's how:
@@ -136,7 +136,7 @@ Since `.profile` executes every time you open a terminal window, now your shell 
 **Before your proceed**: Close your current terminal window and open a new one.
 
 ### 5. Install Python 3
-\
+
 Now we can use Homebrew to install the latest version of Python.
 
 After you've opened a new terminal window, type:
@@ -158,7 +158,7 @@ Python 3.7.3
 ```
 
 ### 6. Install FFmpeg
-\
+
 One of the dependencies for `instapy-cli` is [FFmpeg](https://ffmpeg.org/), which apparently is necessary for pre-processing photos and videos before uploading them.
 
 We can install this utility using Homebrew:
@@ -169,7 +169,7 @@ brew install ffmpeg
 
 
 ### 7. Install instapy-cli
-\
+
 Finally, we can install the tool we actually want to use!
 
 As with any Python packages, `instapy-cli` can be installed via the Python's package manager, named `pip`. Type:
@@ -199,14 +199,14 @@ Once you've set everything up, here's how you can use the tool.
 
 1. Open a terminal window.
 2. Invoke the `instapy`  command along with your upload options.\
-\
+	\
 	For instance, if your Instagram user name were `paulpepperradiofriends`, and you wanted to upload a file called `my-movie.mp4` on your desktop, you would type:
 
 	```sh
 	instapy -u paulpepperradiofriends -f ~/Desktop/my-movie.mp4
 	```
-\
-\
+	\
+
 3. Press RETURN.
 4. When prompted, type your Instagram password (the password will stay hidden while you type it).
 5. Wait a bit until the command prints `Done`.
