@@ -227,7 +227,7 @@ Options:
 
 ## Epilogue
 
-After you using `instapy-cli`, you might receive an automatic email from Instagram notifying you about a login from an unfamiliar device, specifically a Samsung SM-G930F.
+After using `instapy-cli`, you might receive an automatic email from Instagram notifying you about a login from an unfamiliar device, specifically a Samsung SM-G930F.
 
 ![You might get an email about a login to your account from a strange device.](strange-device-email.png)
 
