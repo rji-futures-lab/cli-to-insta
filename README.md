@@ -205,7 +205,6 @@ Once you've set everything up, here's how you can use the tool.
 	```sh
 	instapy -u paulpepperradiofriends -f ~/Desktop/my-movie.mp4
 	```
-	\
 
 3. Press RETURN.
 4. When prompted, type your Instagram password (the password will stay hidden while you type it).
